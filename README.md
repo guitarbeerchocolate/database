@@ -1,0 +1,1 @@
+For accessing and querying databases using PDO.
