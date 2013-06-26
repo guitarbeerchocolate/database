@@ -26,6 +26,11 @@ class database
 		$result = mysql_query($q);
 		return mysql_fetch_object($result);
 	}
+	
+	function lastAdded()
+	{
+		return mysql_insert_id();
+	}
 
 	function __destruct()
 	{
